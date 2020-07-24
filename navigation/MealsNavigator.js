@@ -12,6 +12,7 @@ import { createMaterialBottomTabNavigator } from 'react-navigation-material-bott
 import FavouritesScreen from '../screens/FavouritesScreen'
 import { createDrawerNavigator } from 'react-navigation-drawer';
 import FiltersScreen from '../screens/FiltersScreen'
+
 const defaultStackNavOptions = {
     headerStyle: {
         backgroundColor: Platform.OS === 'android' ? Colors.primaryColor : ''
